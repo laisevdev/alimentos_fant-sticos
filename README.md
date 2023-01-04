@@ -1,1 +1,1 @@
-Projeto alimentos fantásticos para praticar grid layout. Tecnologias utilizadas html5 e css3.
+Projeto alimentos fantásticos para praticar grid layout, flex box layout e eventos javascript. Tecnologias utilizadas: html5, css e javascript.
