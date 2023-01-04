@@ -23,7 +23,14 @@
     font-family: 'Playfair Display SC';
     letter-spacing: 10px;
     line-height: 50px;
-    font-size: 42px;
+    font-size: 45px;
+}
+
+.titulo-projeto span {
+    font-family: 'Playfair Display SC';
+    font-size: 49px;
+    letter-spacing: 10px;
+    line-height: 60px;
 }
 
 .imagens-frutas {
