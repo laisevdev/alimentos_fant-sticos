@@ -42,6 +42,11 @@
     align-items: center;
 }
 
+/*SECTION - BOTÃO VOLTAR */
+.botao-voltar a img {        
+    margin-left: 85%;
+}
+
 /* FOOTER - FLEXBOX*/
 .footer {
     display: flex;
@@ -54,4 +59,11 @@
     padding: 40px 0;
     border-radius: 5px;
 }
+}
+
+@media (max-width: 630px) {
+    .botao-voltar a img {
+        
+        margin-left: 85%;
+    }
 }
