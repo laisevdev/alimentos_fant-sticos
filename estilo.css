@@ -36,6 +36,8 @@ img {
 
     padding-bottom: 15px;
 
+    cursor: pointer;
+
 }
 
 h2 ::before {
@@ -131,13 +133,18 @@ a:hover {
 
 .imagens-frutas {
     min-width: 190px;
-    height: 350px;
+    height: 690px;
     overflow-y: scroll;
+    
     grid-area: "imagens-frutas";
 
     justify-content: center;
     align-items: center;
     transition: all 0.7s ease-in-out 0.3s;
+}
+
+.box-descricoes {
+    height: 700px;
 }
 
 .descricao {
