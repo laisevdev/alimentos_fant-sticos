@@ -145,6 +145,7 @@ a:hover {
 
 .box-descricoes {
     height: 700px;
+    overflow: hidden;
 }
 
 .descricao {
