@@ -133,7 +133,7 @@ a:hover {
 
 .imagens-frutas {
     min-width: 190px;
-    height: 690px;
+    height: 340px;
     overflow-y: scroll;
     
     grid-area: "imagens-frutas";
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .box-descricoes {
-    height: 700px;
+    height: 340px;
     overflow: hidden;
 }
 
@@ -186,6 +186,7 @@ a:hover {
 
     text-align: justify;
     padding: 15px;
+    margin-top: 80px;
 }
 
 dt {
