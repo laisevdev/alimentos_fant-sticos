@@ -143,19 +143,23 @@ a:hover {
     transition: all 0.7s ease-in-out 0.3s;
 }
 
-.box-descricoes {
-    height: 340px;
-    overflow: hidden;
+/* INTERACAO C JS - DESCRICOES */
+.js-tabconteudo {
+    display: none;
+}
+
+.ativo {
+    display: block !important;
 }
 
 .descricao {
     max-width: 320px;
     min-width: 190px;
-    height: 345px;
+
     grid-area: "descricao";
     grid-row: descricao;
 
-    overflow: hidden;
+    
 
     align-items: center;
     justify-content: center;
