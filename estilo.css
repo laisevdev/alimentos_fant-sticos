@@ -94,7 +94,7 @@ a:hover {
 /* MAIN  - GRID SEÇÃO */
 .grid-seção {
     max-width: 821px;
-    margin: 0px auto;
+    margin: 0px auto 0px auto;
 
     display: grid;
     gap: 15px;
@@ -202,6 +202,7 @@ dt {
     max-width: 1200px;
 
     padding: 25px;
+    
 
     grid-area: "contato";
     grid-column: contato;
@@ -209,7 +210,7 @@ dt {
 
 .apps a img {
     width: 48px;
-    height: 60px;
+    height: 82px;
 }
 
 .apps a {
