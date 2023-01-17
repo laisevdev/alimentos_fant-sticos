@@ -143,14 +143,29 @@ a:hover {
     transition: all 0.7s ease-in-out 0.3s;
 }
 
-/* INTERACAO C JS - DESCRICOES */
+/* INICIO: INTERACAO C JS - DESCRICOES */
 .js-tabconteudo {
     display: none;
+    animation: show .8s forwards;
 }
 
 .ativo {
     display: block !important;
 }
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translate3d(-9, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+
+/* FIM: INTERACAO C JS - DESCRICOES */
 
 .descricao {
     max-width: 320px;
