@@ -231,8 +231,8 @@ dt {
 }
 
 .botao-voltar a img {
-    max-width: 90px;
-    height: 100px;
+    max-width: 95px;
+    height: 110px;
     margin-left: 90%;
 
     transition: ease 1.5s;
