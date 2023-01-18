@@ -144,7 +144,7 @@ a:hover {
 }
 
 /* INICIO: INTERACAO C JS - DESCRICOES */
-.js-tabconteudo {
+.js .js-tabconteudo {
     display: none;
     animation: show .8s forwards;
 }
