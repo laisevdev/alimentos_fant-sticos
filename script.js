@@ -1,8 +1,8 @@
-const linksApps = document.querySelectorAll('.apps a');   //seleciona todos elementos da classe .apps a;
+const linksApps = document.querySelectorAll('.apps a');   
 
 function clicou (event) {
-    event.preventDefault();         //previne a NÃO ATUALIZAÇÃO DA PÁGINA;
-    linksApps.forEach ((links) => {    // uso do forEach para iteracao dos links dos apps;
+    event.preventDefault();         
+    linksApps.forEach ((links) => {    
         links.removeAttribute('class', 'LINK-ATIVADO');
     })
     event.currentTarget.setAttribute('class', 'LINK-ATIVADO');  // ao clicar add atributo de classe aos apps; 
