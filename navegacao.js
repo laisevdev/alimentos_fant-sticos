@@ -1,3 +1,4 @@
+//NAVEGACAO POR TABS
 const menuFrutas = document.querySelectorAll ('.js-tabmenu li');
 
 const descreveFrutas = document.querySelectorAll ('.js-tabconteudo');
